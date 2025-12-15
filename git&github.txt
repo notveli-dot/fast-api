@@ -36,3 +36,9 @@ commit the changes using git commit -m "your commit message"
 
 GITHUB is a server where you can save your files online using git.
 You must create an account on GitHub to use it.
+
+
+
+Making a copy on github
+first you confirm no new changes is available on remote repo by using git pull
+connect your online repo with local repo using git remote add origin <repo-url>

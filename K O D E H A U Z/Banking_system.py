@@ -57,5 +57,5 @@ while running:
     else:
         print("Please enter a valid choice")
 
-
+print("Your final balance is #", balance)
 print("Thank you for banking with us")
