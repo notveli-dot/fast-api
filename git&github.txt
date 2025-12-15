@@ -42,3 +42,4 @@ You must create an account on GitHub to use it.
 Making a copy on github
 first you confirm no new changes is available on remote repo by using git pull
 connect your online repo with local repo using git remote add origin <repo-url>
+Push the changes to the online repo
