@@ -1,0 +1,38 @@
+GIT is basically a version control system that helps developers track changes in their code over time.
+It allows multiple people to work on the same project simultaneously without overwriting each other's changes.
+Git keeps a history of all changes made to the code, making it easy to revert to previous versions if needed.
+Every developer has a local copy of the entire project history, which means they can work offline and sync changes later.
+repo (short for repository) is a storage location where your project files and their version history are kept.
+developer can roll back to previous versions of their code if they make a mistake or want to see how the code looked at an earlier point in time.
+
+How do we use git
+1. Install Git: First, you need to install Git on your computer. You can download it from the official Git website (https://git-scm.com/).
+2. Set Up Git: After installation, you should configure your Git settings
+    - Open your terminal or command prompt.
+    - Set your username: git config --global user.name "Your Name"
+    - Set your email: git config --global user.email "
+
+Terminologies in Git
+repository (repo): A storage location for your project files and their version history.That can be tracked using Git.
+commit: A snapshot of your changes in the repository. Each commit has a unique ID and a message describing the changes made.
+branch: A separate line of development in a repository. Branch is a parallel version of the main codebase that allows you to work on new features or fixes without affecting the main code.
+merge: The process of combining changes from one branch into another. This is typically done when you want to integrate new features or fixes into the main codebase.
+staging area: A temporary area where you can prepare your changes before committing them to the repository. You can add files to the staging area using the git add command.
+remote: A version of your repository that is hosted on a server, allowing multiple developers to collaborate. Common remote hosting services include GitHub, GitLab, and Bitbucket.
+clone: Creating a local copy of a remote repository on your computer. This allows you to work on the project locally.
+push: Uploading your local commits to a remote repository so that others can access your changes.
+pull: Fetching and merging changes from a remote repository into your local repository to keep it up to date.
+
+Workflow of using git
+decide which folder you want to track with git
+initialize a git repository in that folder using the command git init
+move current changes to the staging area using git add <file-name> or git add . to add all files
+commit the changes in the staging area to the repository using git commit -m "your commit message
+
+new changes(edited, added, deleted)to a repo
+move to staging area using git add <file-name> or git add .
+commit the changes using git commit -m "your commit message"
+
+
+GITHUB is a server where you can save your files online using git.
+You must create an account on GitHub to use it.
