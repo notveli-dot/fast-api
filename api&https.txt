@@ -13,6 +13,7 @@ Request line(url):
 Headers(http method, content type): carries additional information about a request
 body(optional) - post
 
+
 Daniel has built a simple blogging system(football updates) - update title,content,date,image
 [DAN-DB(username,password)]...(Built it using PHP)
 use a tool/library/framework that is compatible with PHP to build urls(https://daniel.com/api) that in turn these returns a JSON response/structure when requests are made to them.
