@@ -48,3 +48,8 @@ API are for developers
 Fidelis is building a blogging system(football updates) - update title,content,date,image[DAN-DB(username,password)]...(Built it using Python)
 Fidelis uses Daniel API to connect to DAN-DB and perform operations like create,read,update,delete blog posts without the database credentials
 Fidelis needs to make a request to those urls, get the JSON structures, converts them to his native language structure and get those updates
+
+
+THIRD PARTY MODULES
+1 Global installation(installing directly to the system)
+2 installing to a virtual environment(create a folder and install within the folder)
