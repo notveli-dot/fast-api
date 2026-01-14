@@ -1,0 +1,49 @@
+API is application Programming Interface
+API is basically a bridge that allows different software applications to communicate with each other.
+API uses a specific communication protocol to enable this interaction, such as HTTP/HTTPS for web APIs. It defines how messages are formatted and transmiited between clients(browsers/app) and servers(websites/web services)
+HTTP methods:
+GET: Used to retrieve data from a server. For example, when you visit a website, your browser sends a GET request to fetch the webpage.
+POST: Used to send data to a server to create a new resource.
+PUT: Used to update an existing resource on the server with new data.
+DELETE: Used to remove a resource from the server.
+patch: Used to make partial updates to an existing resource on the server.
+
+Http request structure
+Request line(url):
+Headers(http method, content type): carries additional information about a request
+body(optional) - post
+
+Daniel has built a simple blogging system(football updates) - update title,content,date,image
+[DAN-DB(username,password)]...(Built it using PHP)
+use a tool/library/framework that is compatible with PHP to build urls(https://daniel.com/api) that in turn these returns a JSON response/structure when requests are made to them.
+
+typical response of api
+[
+    {
+        "title": "update 1",
+        "content": "content of update 1",
+        "date": "2023-10-01",9.45pm
+        "image": "https://daniel.com/images/update1.jpg"
+    },
+    {
+        "title": "update 2",
+        "content": "content of update 2",
+        "date": "2023-10-02",10.00pm
+        "image": "https://daniel.com/images/update2.jpg"
+    },
+    {   "title": "update 3",
+        "content": "content of update 3",
+        "date": "2023-10-03",8.30pm
+        "image": "https://daniel.com/images/update3.jpg"
+    }
+]
+
+
+API (open/public, private, partnership, composite)
+API are for developers
+---------------------->>> HTTP requests >>>>API endpoint(URL) >>>>server >>>>database >>>>response(JSON, XML, HTML)>>>client(browser/app)
+
+
+Fidelis is building a blogging system(football updates) - update title,content,date,image[DAN-DB(username,password)]...(Built it using Python)
+Fidelis uses Daniel API to connect to DAN-DB and perform operations like create,read,update,delete blog posts without the database credentials
+Fidelis needs to make a request to those urls, get the JSON structures, converts them to his native language structure and get those updates
