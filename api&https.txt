@@ -53,3 +53,8 @@ Fidelis needs to make a request to those urls, get the JSON structures, converts
 THIRD PARTY MODULES
 1 Global installation(installing directly to the system)
 2 installing to a virtual environment(create a folder and install within the folder)
+
+Every language has a tool for installing packages/modules(pip)
+COMMAND
+pip install module/package-name
+
